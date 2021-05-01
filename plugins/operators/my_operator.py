@@ -1,5 +1,8 @@
 #from airflow.operators.bash_operator import BaseOperator
-from airflow.operators import BashOperator
+from airflow.models.baseoperator import BaseOperator
+#from airflow.utils.decorators import apply_defaults
+#from airflow.operators import BaseOperator
+
 from airflow.utils.decorators import apply_defaults
 from hooks.my_hook import MyHook
 
