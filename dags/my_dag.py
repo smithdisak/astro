@@ -1,9 +1,14 @@
 from airflow import DAG
 from datetime import datetime, timedelta
+
+import sys
+sys.path
+sys.path.append('/opt/bitnami/airflow/git-plugins')
+
 #from operators.my_operator import MyOperator
-from my_operator.py import MyOperator
+from my_operator import MyOperator
 #from sensors.my_sensor import MySensor
-from my_sensor.py import MySensor
+from my_sensor import MySensor
 
 default_args = {
 	'owner': 'airflow',
