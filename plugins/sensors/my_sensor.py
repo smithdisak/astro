@@ -1,4 +1,6 @@
-from airflow.sensors.base_sensor_operator import BaseSensorOperator
+#from airflow.sensors.base_sensor_operator import BaseSensorOperator
+from airflow.sensors import BaseSensorOperator
+#from airflow.operators import BashOperator
 from airflow.utils.decorators import apply_defaults
 
 
