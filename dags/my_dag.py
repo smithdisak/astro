@@ -1,9 +1,9 @@
 from airflow import DAG
 from datetime import datetime, timedelta
 #from operators.my_operator import MyOperator
-from my_operator import MyOperator
+from my_operator.py import MyOperator
 #from sensors.my_sensor import MySensor
-from my_sensor import MySensor
+from my_sensor.py import MySensor
 
 default_args = {
 	'owner': 'airflow',
