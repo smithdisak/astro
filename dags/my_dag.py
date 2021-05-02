@@ -1,9 +1,9 @@
 from airflow import DAG
 from datetime import datetime, timedelta
 
-import sys
-sys.path
-sys.path.append('/opt/bitnami/airflow/git-plugins')
+#import sys
+#sys.path
+#sys.path.append('/opt/bitnami/airflow/git-plugins')
 
 #from operators.my_operator import MyOperator
 from my_operator import MyOperator
