@@ -5,8 +5,8 @@ from datetime import datetime, timedelta
 #sys.path
 #sys.path.append('/opt/bitnami/airflow/git-plugins')
 
-#from operators.my_operator import MyOperator
-from my_operator import MyOperator
+from operators.my_operator import MyOperator
+#from my_operator import MyOperator
 #from sensors.my_sensor import MySensor
 from my_sensor import MySensor
 
